@@ -14,12 +14,12 @@ function calculeteFactorial(numero){
     return fatorial;
 }
 
-//let num = document.getElementById('id-factorial').value;
-let num = 5;
+let num = document.getElementById('id-factorial').value;
+//let num = 5;
 
 let total = calculeteFactorial(num);
 
-//let paragraphe = document.getElementById('mensage-id-p');
+let paragraphe = document.getElementById('mensage-id-p');
 
 console.log(total);
 
